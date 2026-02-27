@@ -1,0 +1,29 @@
+{
+  "name": "bitespeed-identity-reconciliation",
+  "version": "1.0.0",
+  "description": "Backend service for identity reconciliation task (Bitespeed assignment)",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "bitespeed",
+    "backend",
+    "identity-reconciliation",
+    "nodejs",
+    "express",
+    "mysql"
+  ],
+  "author": "Mayank Singh",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mysql2": "^3.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
